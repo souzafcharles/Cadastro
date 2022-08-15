@@ -39,5 +39,4 @@ public enum UnidadeFederacao {
     public String toString() {
         return estado;
     }
-
 }
