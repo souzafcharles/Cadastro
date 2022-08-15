@@ -7,12 +7,42 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:layout_width="wrap_content"
+        android:id="@+id/nomeTv"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:text="@string/nomeTv"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/nomeEt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/nomeTv" />
+
+    <TextView
+        android:id="@+id/telefoneTv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/telefoneTv"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/telefoneTv" />
+
+    <EditText
+        android:id="@+id/telefoneEt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/telefoneHint"
+        android:inputType="phone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/telefoneEt" />
+
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
