@@ -2,12 +2,14 @@
     <string name="app_name">Cadastro</string>
     <string name="nomeTv">Nome completo</string>
     <string name="telefoneTv">Telefone</string>
-    <string name="telefoneHint">Ex.: 11–22222–3333</string>
+    <string name="telefoneHint">Ex: 12-93456-7890</string>
     <string name="emailTv">E-mail</string>
-    <string name="mailingCbText">Ingressar na lista de e-mails?</string>
+    <string name="mailingCb">Ingressar na lista de e-mails?</string>
     <string name="sexoTv">Sexo</string>
+    <string name="masculinoRb">Masculino</string>
+    <string name="femininoRb">Feminino</string>
     <string name="cidadeTv">Cidade</string>
-    <string name="uf">UF</string>
-    <string name="limpar">Limpar</string>
-    <string name="salvar">Salvar</string>
+    <string name="ufTv">UF</string>
+    <string name="limparBtn">Limpar</string>
+    <string name="salvarBtn">Salvar</string>
 </resources>

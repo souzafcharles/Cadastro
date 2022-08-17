@@ -5,7 +5,8 @@ Lecturer: Prof. Dr. Pedro Northon Nobile
 Activity presented by: Charles Fernandes de Souza
 Date: August 15, 2022
 */
-public class Formulario {
+public class
+Formulario {
     private String nome;
     private String telefone;
     private String email;
@@ -82,12 +83,12 @@ public class Formulario {
 
     @Override
     public String toString() {
-        return "Nome completo: " + nome +
+        return  "Nome: " + nome +
                 "\nTelefone: " + telefone +
-                "\nEmail: " + email +
-                "\nListado: " + mailing +
+                "\nE-mail: " + email +
+                "\nPertence a lista de e-mails? " + mailing +
                 "\nSexo: " + sexo +
                 "\nCidade: " + cidade +
-                " [" + uf + "]";
+                "\nUF: " + uf;
     }
 }

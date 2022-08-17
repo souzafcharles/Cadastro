@@ -29,14 +29,14 @@ public enum UnidadeFederacao {
     SE("Sergipe"),
     TO("Tocantins");
 
-    private String estado;
+    private String federacoes;
 
-    UnidadeFederacao(String estado) {
-        this.estado = estado;
+    UnidadeFederacao(String federacoes) {
+        this.federacoes = federacoes;
     }
 
     @Override
     public String toString() {
-        return estado;
+        return federacoes;
     }
 }
